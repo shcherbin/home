@@ -93,7 +93,11 @@ set noswapfile       " no swap files
 
 " Tab Configuration
 set smarttab
-set tabstop=8
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+
 
 " In Ruby/Python/js/C/C++ highlight code if line longer than 80
 augroup vimrc_autocmds
